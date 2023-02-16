@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44DA54A5299A71E000B156D8 /* polak_amcef_demoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DA54A4299A71E000B156D8 /* polak_amcef_demoApp.swift */; };
+		44DA54A7299A71E000B156D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DA54A6299A71E000B156D8 /* ContentView.swift */; };
+		44DA54A9299A71E100B156D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44DA54A8299A71E100B156D8 /* Assets.xcassets */; };
+		44DA54AC299A71E100B156D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44DA54AB299A71E100B156D8 /* Preview Assets.xcassets */; };
+		44DA54AE299A71E100B156D8 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DA54AD299A71E100B156D8 /* Persistence.swift */; };
+		44DA54B1299A71E100B156D8 /* polak_amcef_demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44DA54AF299A71E100B156D8 /* polak_amcef_demo.xcdatamodeld */; };
+		44DA54BA299A75E200B156D8 /* ContentVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DA54B9299A75E200B156D8 /* ContentVM.swift */; };
+		44DA54BD299A78AE00B156D8 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DA54BC299A78AE00B156D8 /* Networking.swift */; };
+		44DA54C0299A790400B156D8 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 44DA54BF299A790400B156D8 /* Alamofire */; };
+		44DA54C2299A79C200B156D8 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DA54C1299A79C200B156D8 /* Request.swift */; };
+		44DA54C5299A7B6700B156D8 /* AnyCodable in Frameworks */ = {isa = PBXBuildFile; productRef = 44DA54C4299A7B6700B156D8 /* AnyCodable */; };
+		44DA54C8299A7C6B00B156D8 /* EntriesRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DA54C7299A7C6B00B156D8 /* EntriesRequest.swift */; };
+		44DA54CA299A7E0300B156D8 /* EntriesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DA54C9299A7E0300B156D8 /* EntriesResponse.swift */; };
+		44FC187D299BCF28007D1E57 /* Combine+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FC187C299BCF28007D1E57 /* Combine+Extensions.swift */; };
+		44FC1880299D052A007D1E57 /* EndpointItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FC187F299D052A007D1E57 /* EndpointItem.swift */; };
+		44FC1883299D08AF007D1E57 /* SUIWKWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FC1882299D08AF007D1E57 /* SUIWKWebView.swift */; };
+		44FC1885299D2176007D1E57 /* CategoriesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FC1884299D2176007D1E57 /* CategoriesResponse.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		44DA54A1299A71E000B156D8 /* polak.amcef.demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = polak.amcef.demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44DA54A4299A71E000B156D8 /* polak_amcef_demoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = polak_amcef_demoApp.swift; sourceTree = "<group>"; };
+		44DA54A6299A71E000B156D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		44DA54A8299A71E100B156D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44DA54AB299A71E100B156D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		44DA54AD299A71E100B156D8 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		44DA54B0299A71E100B156D8 /* polak_amcef_demo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = polak_amcef_demo.xcdatamodel; sourceTree = "<group>"; };
+		44DA54B9299A75E200B156D8 /* ContentVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentVM.swift; sourceTree = "<group>"; };
+		44DA54BC299A78AE00B156D8 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		44DA54C1299A79C200B156D8 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		44DA54C7299A7C6B00B156D8 /* EntriesRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntriesRequest.swift; sourceTree = "<group>"; };
+		44DA54C9299A7E0300B156D8 /* EntriesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntriesResponse.swift; sourceTree = "<group>"; };
+		44FC187C299BCF28007D1E57 /* Combine+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Combine+Extensions.swift"; sourceTree = "<group>"; };
+		44FC187F299D052A007D1E57 /* EndpointItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointItem.swift; sourceTree = "<group>"; };
+		44FC1882299D08AF007D1E57 /* SUIWKWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUIWKWebView.swift; sourceTree = "<group>"; };
+		44FC1884299D2176007D1E57 /* CategoriesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesResponse.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44DA549E299A71E000B156D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44DA54C5299A7B6700B156D8 /* AnyCodable in Frameworks */,
+				44DA54C0299A790400B156D8 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44DA5498299A71E000B156D8 = {
+			isa = PBXGroup;
+			children = (
+				44DA54A3299A71E000B156D8 /* polak.amcef.demo */,
+				44DA54A2299A71E000B156D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44DA54A2299A71E000B156D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44DA54A1299A71E000B156D8 /* polak.amcef.demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44DA54A3299A71E000B156D8 /* polak.amcef.demo */ = {
+			isa = PBXGroup;
+			children = (
+				44FC1881299D08A0007D1E57 /* Components */,
+				44FC187B299BCF1B007D1E57 /* Extensions */,
+				44DA54C6299A7C5B00B156D8 /* Models */,
+				44DA54BB299A78A300B156D8 /* Services */,
+				44DA54B7299A75B900B156D8 /* UI */,
+				44DA54A4299A71E000B156D8 /* polak_amcef_demoApp.swift */,
+				44DA54A8299A71E100B156D8 /* Assets.xcassets */,
+				44DA54AD299A71E100B156D8 /* Persistence.swift */,
+				44DA54AF299A71E100B156D8 /* polak_amcef_demo.xcdatamodeld */,
+				44DA54AA299A71E100B156D8 /* Preview Content */,
+			);
+			path = polak.amcef.demo;
+			sourceTree = "<group>";
+		};
+		44DA54AA299A71E100B156D8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				44DA54AB299A71E100B156D8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		44DA54B7299A75B900B156D8 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				44DA54B8299A75C300B156D8 /* Content */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		44DA54B8299A75C300B156D8 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				44FC187E299D0517007D1E57 /* Components */,
+				44DA54A6299A71E000B156D8 /* ContentView.swift */,
+				44DA54B9299A75E200B156D8 /* ContentVM.swift */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		44DA54BB299A78A300B156D8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				44DA54BC299A78AE00B156D8 /* Networking.swift */,
+				44DA54C1299A79C200B156D8 /* Request.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		44DA54C6299A7C5B00B156D8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				44DA54C7299A7C6B00B156D8 /* EntriesRequest.swift */,
+				44DA54C9299A7E0300B156D8 /* EntriesResponse.swift */,
+				44FC1884299D2176007D1E57 /* CategoriesResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		44FC187B299BCF1B007D1E57 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				44FC187C299BCF28007D1E57 /* Combine+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		44FC187E299D0517007D1E57 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				44FC187F299D052A007D1E57 /* EndpointItem.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		44FC1881299D08A0007D1E57 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				44FC1882299D08AF007D1E57 /* SUIWKWebView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44DA54A0299A71E000B156D8 /* polak.amcef.demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44DA54B4299A71E100B156D8 /* Build configuration list for PBXNativeTarget "polak.amcef.demo" */;
+			buildPhases = (
+				44DA549D299A71E000B156D8 /* Sources */,
+				44DA549E299A71E000B156D8 /* Frameworks */,
+				44DA549F299A71E000B156D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = polak.amcef.demo;
+			packageProductDependencies = (
+				44DA54BF299A790400B156D8 /* Alamofire */,
+				44DA54C4299A7B6700B156D8 /* AnyCodable */,
+			);
+			productName = polak.amcef.demo;
+			productReference = 44DA54A1299A71E000B156D8 /* polak.amcef.demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44DA5499299A71E000B156D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					44DA54A0299A71E000B156D8 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 44DA549C299A71E000B156D8 /* Build configuration list for PBXProject "polak.amcef.demo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44DA5498299A71E000B156D8;
+			packageReferences = (
+				44DA54BE299A790400B156D8 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				44DA54C3299A7B6700B156D8 /* XCRemoteSwiftPackageReference "AnyCodable" */,
+			);
+			productRefGroup = 44DA54A2299A71E000B156D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44DA54A0299A71E000B156D8 /* polak.amcef.demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44DA549F299A71E000B156D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44DA54AC299A71E100B156D8 /* Preview Assets.xcassets in Resources */,
+				44DA54A9299A71E100B156D8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44DA549D299A71E000B156D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44DA54AE299A71E100B156D8 /* Persistence.swift in Sources */,
+				44FC1885299D2176007D1E57 /* CategoriesResponse.swift in Sources */,
+				44FC1883299D08AF007D1E57 /* SUIWKWebView.swift in Sources */,
+				44FC187D299BCF28007D1E57 /* Combine+Extensions.swift in Sources */,
+				44DA54A7299A71E000B156D8 /* ContentView.swift in Sources */,
+				44DA54C8299A7C6B00B156D8 /* EntriesRequest.swift in Sources */,
+				44DA54BA299A75E200B156D8 /* ContentVM.swift in Sources */,
+				44DA54BD299A78AE00B156D8 /* Networking.swift in Sources */,
+				44DA54CA299A7E0300B156D8 /* EntriesResponse.swift in Sources */,
+				44DA54C2299A79C200B156D8 /* Request.swift in Sources */,
+				44DA54A5299A71E000B156D8 /* polak_amcef_demoApp.swift in Sources */,
+				44DA54B1299A71E100B156D8 /* polak_amcef_demo.xcdatamodeld in Sources */,
+				44FC1880299D052A007D1E57 /* EndpointItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		44DA54B2299A71E100B156D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		44DA54B3299A71E100B156D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44DA54B5299A71E100B156D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"polak.amcef.demo/Preview Content\"";
+				DEVELOPMENT_TEAM = K63BZ3LXA2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "marek.polak.polak-amcef-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44DA54B6299A71E100B156D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"polak.amcef.demo/Preview Content\"";
+				DEVELOPMENT_TEAM = K63BZ3LXA2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "marek.polak.polak-amcef-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44DA549C299A71E000B156D8 /* Build configuration list for PBXProject "polak.amcef.demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44DA54B2299A71E100B156D8 /* Debug */,
+				44DA54B3299A71E100B156D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44DA54B4299A71E100B156D8 /* Build configuration list for PBXNativeTarget "polak.amcef.demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44DA54B5299A71E100B156D8 /* Debug */,
+				44DA54B6299A71E100B156D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		44DA54BE299A790400B156D8 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.1;
+			};
+		};
+		44DA54C3299A7B6700B156D8 /* XCRemoteSwiftPackageReference "AnyCodable" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Flight-School/AnyCodable";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.6.7;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		44DA54BF299A790400B156D8 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 44DA54BE299A790400B156D8 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		44DA54C4299A7B6700B156D8 /* AnyCodable */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 44DA54C3299A7B6700B156D8 /* XCRemoteSwiftPackageReference "AnyCodable" */;
+			productName = AnyCodable;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		44DA54AF299A71E100B156D8 /* polak_amcef_demo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				44DA54B0299A71E100B156D8 /* polak_amcef_demo.xcdatamodel */,
+			);
+			currentVersion = 44DA54B0299A71E100B156D8 /* polak_amcef_demo.xcdatamodel */;
+			path = polak_amcef_demo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 44DA5499299A71E000B156D8 /* Project object */;
+}
