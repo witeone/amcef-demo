@@ -10,7 +10,7 @@ import Foundation
 // MARK: - EntriesResponse
 struct EntriesResponse: Codable, Equatable {
     var count: Int
-    var entries: [Entry]
+    var entries: [Entry]?
 }
 
 // MARK: - Entry
@@ -46,4 +46,19 @@ enum Cors: String, Codable {
     case unknown = "unknown"
     case unkown = "unkown"
     case yes = "yes"
+}
+
+extension EntryCD {
+    func mirror() -> Entry? {
+        guard let auth = Auth(rawValue: auth ?? ""),
+              let cors = Cors(rawValue: cors ?? "") else { return nil }
+
+        return Entry(api: api ?? "",
+                     description: desc ?? "",
+                     auth: auth,
+                     https: https,
+                     cors: cors,
+                     link: link ?? "",
+                     category: category ?? "")
+    }
 }
